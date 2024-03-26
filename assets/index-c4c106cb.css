@@ -1,0 +1,93 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@400;500&amp;display=swap";
+body {
+  margin: 0;
+}
+.site-layout-content {
+  min-height: 280px;
+}
+.logo {
+  float: left;
+  margin-left: 40px;
+  width: 120px;
+  height: 100%;
+  line-height: 100%;
+}
+.logo img {
+  margin-top: 11px;
+}
+.content-header {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.content-sub-header {
+  padding-top: 1px;
+  padding-bottom: 20px;
+}
+.date-display {
+  font-family: Inter, sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.global-description {
+  color: #00000078;
+}
+.global-section {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  color: #00000078;
+}
+.ant-layout-sider {
+  flex: 0 0 240px !important;
+  max-width: 240px !important;
+  min-width: 240px !important;
+  width: 240px !important;
+}
+.ant-menu-light {
+  background: none;
+}
+.ant-menu-light.ant-menu-root.ant-menu-inline {
+  border-inline-end: none;
+}
+.ant-menu .ant-menu-item-group-title {
+  margin-top: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+}
+.ant-menu-item.ant-menu-item-selected {
+  background-color: #95959521;
+}
+.ant-table-thead th.ant-table-cell,
+thead.ant-table-thead tr td.ant-table-cell {
+  background: none !important;
+  border: none !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+  color: #00000078 !important;
+}
+button.ant-btn span {
+  font-family: Inter, sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+}
+.ant-tag {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+  font-family: Inter, sans-serif;
+}
+.form-description {
+  color: #00000078;
+}
+.ant-tabs .ant-tabs-tab + .ant-tabs-tab {
+  margin: 0 0 0 50px;
+}
